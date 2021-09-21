@@ -48,7 +48,7 @@ function calculateChange(amountToReturn)
         const Notes= Math.trunc(amountToReturn/availableNotes[i]);
        
         amountToReturn= amountToReturn % availableNotes[i];
-        NumberOfNotes[i].innerHTML=Notes;
+        NumberOfNotes[i].innerText=Notes;
 
        
 
